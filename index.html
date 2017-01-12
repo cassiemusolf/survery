@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Survery</title>
+  </head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/scripts.js"></script>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+      <h1>Choose your favorite things!</h1>
+    </div>
+        <p>Beverage for FREE</p>
+
+        <form>
+          <select class="form-control" id=beverage>
+            <option>Coffee</option>
+            <option>Tea</option>
+            <option>Water</option>
+            <option>Beer</option>
+          </select>
+
+          <p>What's your fav FLAVOR?</p>
+          <div class="radio">
+            <label>
+              <input type="radio" name="flavor" value="Pizza" checked>
+              Pizza
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="flavor" value="vanilla">
+              Vanilla
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="flavor" value="cookiesandcream">
+              Cookies and Cream
+            </label>
+          </div>
+          <button type="submit" class="btn btn-danger">SUBMIT!</button>
+        </form>
+
+
+
+      </div>
+  </body>
+</html>
